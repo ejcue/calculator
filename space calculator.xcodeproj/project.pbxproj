@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07208BB11CDE5C5C0013619F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07208BB01CDE5C5C0013619F /* AppDelegate.swift */; };
+		07208BB31CDE5C5C0013619F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07208BB21CDE5C5C0013619F /* ViewController.swift */; };
+		07208BB61CDE5C5C0013619F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07208BB41CDE5C5C0013619F /* Main.storyboard */; };
+		07208BB81CDE5C5C0013619F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07208BB71CDE5C5C0013619F /* Assets.xcassets */; };
+		07208BBB1CDE5C5C0013619F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07208BB91CDE5C5C0013619F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07208BAD1CDE5C5C0013619F /* space calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "space calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07208BB01CDE5C5C0013619F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07208BB21CDE5C5C0013619F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07208BB51CDE5C5C0013619F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07208BB71CDE5C5C0013619F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07208BBA1CDE5C5C0013619F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07208BBC1CDE5C5C0013619F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07208BAA1CDE5C5C0013619F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07208BA41CDE5C5C0013619F = {
+			isa = PBXGroup;
+			children = (
+				07208BAF1CDE5C5C0013619F /* space calculator */,
+				07208BAE1CDE5C5C0013619F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07208BAE1CDE5C5C0013619F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07208BAD1CDE5C5C0013619F /* space calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07208BAF1CDE5C5C0013619F /* space calculator */ = {
+			isa = PBXGroup;
+			children = (
+				07208BB01CDE5C5C0013619F /* AppDelegate.swift */,
+				07208BB21CDE5C5C0013619F /* ViewController.swift */,
+				07208BB41CDE5C5C0013619F /* Main.storyboard */,
+				07208BB71CDE5C5C0013619F /* Assets.xcassets */,
+				07208BB91CDE5C5C0013619F /* LaunchScreen.storyboard */,
+				07208BBC1CDE5C5C0013619F /* Info.plist */,
+			);
+			path = "space calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07208BAC1CDE5C5C0013619F /* space calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07208BBF1CDE5C5C0013619F /* Build configuration list for PBXNativeTarget "space calculator" */;
+			buildPhases = (
+				07208BA91CDE5C5C0013619F /* Sources */,
+				07208BAA1CDE5C5C0013619F /* Frameworks */,
+				07208BAB1CDE5C5C0013619F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "space calculator";
+			productName = "space calculator";
+			productReference = 07208BAD1CDE5C5C0013619F /* space calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07208BA51CDE5C5C0013619F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mackenstein;
+				TargetAttributes = {
+					07208BAC1CDE5C5C0013619F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 07208BA81CDE5C5C0013619F /* Build configuration list for PBXProject "space calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07208BA41CDE5C5C0013619F;
+			productRefGroup = 07208BAE1CDE5C5C0013619F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07208BAC1CDE5C5C0013619F /* space calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07208BAB1CDE5C5C0013619F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07208BBB1CDE5C5C0013619F /* LaunchScreen.storyboard in Resources */,
+				07208BB81CDE5C5C0013619F /* Assets.xcassets in Resources */,
+				07208BB61CDE5C5C0013619F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07208BA91CDE5C5C0013619F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07208BB31CDE5C5C0013619F /* ViewController.swift in Sources */,
+				07208BB11CDE5C5C0013619F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07208BB41CDE5C5C0013619F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07208BB51CDE5C5C0013619F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07208BB91CDE5C5C0013619F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07208BBA1CDE5C5C0013619F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07208BBD1CDE5C5C0013619F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07208BBE1CDE5C5C0013619F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07208BC01CDE5C5C0013619F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "space calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mackenstein.space-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07208BC11CDE5C5C0013619F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "space calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mackenstein.space-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07208BA81CDE5C5C0013619F /* Build configuration list for PBXProject "space calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07208BBD1CDE5C5C0013619F /* Debug */,
+				07208BBE1CDE5C5C0013619F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07208BBF1CDE5C5C0013619F /* Build configuration list for PBXNativeTarget "space calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07208BC01CDE5C5C0013619F /* Debug */,
+				07208BC11CDE5C5C0013619F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07208BA51CDE5C5C0013619F /* Project object */;
+}
